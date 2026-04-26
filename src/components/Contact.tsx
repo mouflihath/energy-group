@@ -31,7 +31,7 @@ export function Contact() {
             Parlons de <span className="italic text-primary">votre projet</span>
           </h2>
           <p className="text-muted-foreground mt-5 text-lg">
-            Devis gratuit, réponse rapide. Nous sommes à votre écoute 7j/7.
+            Devis gratuit, réponse rapide. Intervention partout au Bénin — Cotonou, Calavi, Porto-Novo, Abomey, Bohicon, Parakou… 7j/7.
           </p>
         </motion.div>
 
