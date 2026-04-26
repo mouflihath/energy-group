@@ -17,7 +17,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-primary-foreground/70 max-w-md leading-relaxed text-sm">
-              Votre expert en installation et dépannage électrique à Cotonou, Calavi et environs.
+              Votre expert en installation et dépannage électrique & plomberie à Cotonou, Calavi et environs.
               Travail soigné, certifié et garanti.
             </p>
           </div>

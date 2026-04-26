@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Plug, Wrench, ShieldCheck, Lightbulb } from "lucide-react";
+import { Plug, Wrench, ShieldCheck, Lightbulb, Droplets } from "lucide-react";
 
 const services = [
   {
@@ -21,6 +21,11 @@ const services = [
     icon: Lightbulb,
     title: "Éclairage & décoration",
     desc: "Solutions LED, éclairage intérieur et extérieur élégant et économique sur-mesure.",
+  },
+  {
+    icon: Droplets,
+    title: "Plomberie",
+    desc: "Installation, réparation de fuites, robinetterie et sanitaires : un service complet et soigné.",
   },
 ];
 
@@ -46,7 +51,7 @@ export function Services() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {services.map((s, i) => (
             <motion.div
               key={s.title}
