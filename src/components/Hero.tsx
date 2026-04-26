@@ -10,7 +10,7 @@ import hero3 from "@/assets/hero-3.jpg";
 const slides = [
   {
     image: hero1,
-    eyebrow: "Experts certifiés à Cotonou",
+    eyebrow: "Experts certifiés au Bénin",
     title: "L'électricité,",
     accent: "en toute confiance",
     desc: "Installation, dépannage et mise aux normes. Une équipe à votre écoute 24/7 pour des interventions rapides et soignées.",

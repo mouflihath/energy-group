@@ -13,16 +13,16 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Energy Group — Électricité & Plomberie à Cotonou & Calavi" },
+      { title: "Energy Group — Électricité & Plomberie partout au Bénin" },
       {
         name: "description",
         content:
-          "Energy Group : électricien et plombier certifiés à Cotonou et Calavi. Installation, dépannage urgent, mise aux normes, éclairage, plomberie. Devis gratuit, intervention 7j/7.",
+          "Energy Group : électriciens et plombiers certifiés au Bénin. Cotonou, Calavi, Porto-Novo, Abomey, Bohicon, Parakou. Installation, dépannage urgent, mise aux normes, éclairage, plomberie. Devis gratuit, 7j/7.",
       },
-      { property: "og:title", content: "Energy Group — Électricité & Plomberie Cotonou & Calavi" },
+      { property: "og:title", content: "Energy Group — Électricité & Plomberie au Bénin" },
       {
         property: "og:description",
-        content: "Installation électrique, plomberie, dépannage et éclairage à Cotonou. Une équipe rapide, fiable et certifiée.",
+        content: "Installation électrique, plomberie, dépannage et éclairage partout au Bénin. Une équipe rapide, fiable et certifiée.",
       },
     ],
   }),

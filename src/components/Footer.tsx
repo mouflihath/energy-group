@@ -17,8 +17,8 @@ export function Footer() {
               </div>
             </div>
             <p className="text-primary-foreground/70 max-w-md leading-relaxed text-sm">
-              Votre expert en installation et dépannage électrique & plomberie à Cotonou, Calavi et environs.
-              Travail soigné, certifié et garanti.
+              Votre expert en installation et dépannage électrique & plomberie partout au Bénin —
+              Cotonou, Calavi, Porto-Novo, Abomey, Bohicon, Parakou et environs. Travail soigné, certifié et garanti.
             </p>
           </div>
 

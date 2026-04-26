@@ -35,7 +35,7 @@ export function About() {
             >
               <div className="font-display text-4xl font-bold text-gold-foreground">A+</div>
               <div className="text-xs text-gold-foreground/80 font-medium mt-1">
-                Note moyenne sur 500+ interventions à Cotonou
+                Note moyenne sur 500+ interventions au Bénin
               </div>
             </motion.div>
 
@@ -54,13 +54,13 @@ export function About() {
               À propos d'Energy Group
             </span>
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Votre partenaire <span className="italic text-primary">électrique</span> à Cotonou
+              Votre partenaire <span className="italic text-primary">électricité & plomberie</span> au Bénin
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-5">
-              Depuis plus de 10 ans, Energy Group accompagne particuliers et professionnels dans tous leurs projets électriques. Notre équipe d'électriciens certifiés intervient avec sérieux, transparence et matériel de qualité.
+              Depuis plus de 10 ans, Energy Group accompagne particuliers, entreprises et chantiers dans tous leurs projets d'électricité et de plomberie. Nous intervenons à <strong>Cotonou, Calavi, Porto-Novo, Abomey, Bohicon, Parakou, Ouidah, Lokossa, Natitingou</strong> et partout ailleurs au Bénin.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-10">
-              Notre engagement : des installations sûres, durables et conformes aux normes, livrées dans les délais convenus.
+              Notre engagement : des installations sûres, durables et conformes aux normes, livrées dans les délais convenus — où que vous soyez sur le territoire.
             </p>
 
             <div className="grid grid-cols-2 gap-5">
