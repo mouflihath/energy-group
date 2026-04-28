@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Award, Clock, Users, ShieldCheck } from "lucide-react";
-import about from "@/assets/hero-1.jpg";
+import about from "@/assets/hero-1.jpeg";
 
 const stats = [
   { icon: Award, value: "10+", label: "Années d'expertise" },

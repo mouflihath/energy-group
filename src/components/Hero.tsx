@@ -3,9 +3,10 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import { motion, AnimatePresence } from "framer-motion";
 import { Phone, MessageCircle, ChevronLeft, ChevronRight, Sparkles } from "lucide-react";
-import hero1 from "@/assets/hero-1.jpg";
-import hero2 from "@/assets/hero-2.jpg";
+import hero1 from "@/assets/hero-1.jpeg";
+import hero2 from "@/assets/hero-2.jpeg";
 import hero3 from "@/assets/hero-3.jpg";
+import hero4 from "@/assets/hero-4.jpg";
 
 const slides = [
   {
@@ -24,6 +25,13 @@ const slides = [
   },
   {
     image: hero3,
+    eyebrow: "Plomberie professionnelle",
+    title: "Des installations",
+    accent: "sans fuites ni soucis",
+    desc: "Des solutions de plomberie fiables et durables pour votre maison ou bureau. Installation, réparation et entretien assurés par des experts.",
+  },
+  {
+    image: hero4,
     eyebrow: "Dépannage express",
     title: "Une panne ?",
     accent: "On arrive vite.",
@@ -88,7 +96,7 @@ export function Hero() {
                 </span>
               </div>
 
-              <h1 className="font-display font-bold text-5xl md:text-7xl lg:text-8xl leading-[0.95] mb-6">
+              <h1 className="font-display font-bold text-5xl md:text-5xl lg:text-6xl leading-[0.95] mb-6">
                 {slides[selected].title}{" "}
                 <span className="block bg-gradient-gold bg-clip-text text-transparent italic">
                   {slides[selected].accent}

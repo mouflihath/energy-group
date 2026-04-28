@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Zap, Droplets, HardHat } from "lucide-react";
 import w1 from "@/assets/work-1.jpg";
 import w2 from "@/assets/work-2.jpg";
-import w3 from "@/assets/work-3.jpg";
-import w4 from "@/assets/work-4.jpg";
+import w3 from "@/assets/work-3.jpeg";
+import w4 from "@/assets/work-4.jpeg";
 import w5 from "@/assets/work-5.jpg";
 import w6 from "@/assets/work-6.jpg";
 import p1 from "@/assets/plumb-1.jpg";
@@ -14,7 +14,7 @@ import p2 from "@/assets/plumb-2.jpg";
 import p3 from "@/assets/plumb-3.jpg";
 import s1 from "@/assets/site-1.jpg";
 import s2 from "@/assets/site-2.jpg";
-import s3 from "@/assets/site-3.jpg";
+import s3 from "@/assets/site-3.jpeg";
 
 type Item = { img: string; title: string; cat: string };
 
